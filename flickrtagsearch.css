@@ -1,0 +1,43 @@
+.fixedAtTop{
+	position: fixed;
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+	text-align: center;
+	z-index: 3;
+}
+
+#fixedPos{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+#fixedPos2{
+	background-color:rgba(0,0,0,0.85);
+	text-align: left;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+
+}
+
+.whiteText{
+	color: #ffffff;
+	font-size:30px;
+	font-family:"Arial", sans-serif;
+}
+
+#forPhoto{
+	padding-top: 60px;
+	height: 70%;
+	vertical-align: middle;
+	text-align: right;
+	z-index: 4;
+}
+
+#bigPhotoInfo{
+	margin-top: -100px;
+	padding-top: -30px; 
+	color: #ffffff;
+}

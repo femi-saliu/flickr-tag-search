@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Flickr Tag Search</title>
+    <link rel="stylesheet" type="text/css" href="flickrtagsearch.css"/>
+    <script src="jquery-1.11.0.js"></script>
+    <script src="flickrtagsearch.js"></script>
+  </head>
+
+  <body>
+    <div id="fixedPos">
+      <div id="forPhoto"></div>
+    </div>
+
+   <div class="fixedAtTop" id="title">
+      <p1 class="whiteText">Flickr Tag Search</p1> <br>
+      <form>
+        <input type="text" id="tagQuery" placeholder="Enter a Tag" value="">
+        <input type="button" id="tagSubmit" value=">" onclick="newTagSearch()">
+      </form>
+   </div>
+
+   <div id = "pictures"></div>
+  </body>
+
+</html>
+
+
