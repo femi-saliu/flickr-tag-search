@@ -1,4 +1,4 @@
-# Flicker Tag Search
+# Flickr Tag Search
 http://femi-saliu.github.io/flickr-tag-search/?
 
 On the website, you will see a simple search bar. In this search bar enter any word that comes to mind such as “cars, dogs, sunshine, blue, food, sky, water, etc..” and click the button next to it. Then a list of 24 photos with that word as one of their tags will appear. You can scroll through this list to look at all of the photos or click on one to get a closer look. When you click on a photo, it will enlarge, show the name of the photo, and show the list of tags associated with that photo. You can either click the back button or click one of the tags to start a new search with that tag and the whole process repeats.
