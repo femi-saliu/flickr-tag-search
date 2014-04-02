@@ -107,3 +107,20 @@ function tagClicked(_value){
     document.getElementById("pictures").innerHTML=longPictureString;
   });
 }
+
+$(document).ready(function() {
+    $('#tagQuery').keydown(function(event) {
+        if (event.keyCode == 13) {
+            newTagSearch();
+            return false;
+         }
+    });
+});
+
+
+
+
+
+
+
+
